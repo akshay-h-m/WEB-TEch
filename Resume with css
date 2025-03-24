@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>akshay - Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume">
+        <header class="header">
+            <div class="profile">
+                
+            </div>
+            <div class="name-title">
+                <h1>Akshay</h1>
+                <p class="title"> Web Developer | Tech Enthusiast</p>
+            </div>
+            <div class="contact-info">
+                <p><strong>Email:</strong> akshay@email.com</p>
+                <p><strong>Phone:</strong> 1234567890</p>
+                <p><strong>Location:</strong> Bangalore, Karnataka</p>
+                <p><strong>LinkedIn:</strong> linkedin.com/in/aks</p>
+                <p><strong>GitHub:</strong> github.com/akshay_h_m</p>
+            </div>
+        </header>
+
+        <section class="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <p><strong>Bachelor of Science in Computer Science</strong></p>
+                <p>MSRIT| 2022 - Present</p>
+                <p>Relevant Courses: Data Structures, Web Development, Algorithms, Database Management, Networking</p>
+            </div>
+            <div class="education-item">
+                <p><strong>Pre University</strong></p>
+                <p>SCTS High School | 2020 - 2022</p>
+                <p>Percentage: 95</p>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-list">
+                <div class="skill">
+                    <h3>Programming Languages</h3>
+                    <p>HTML, CSS, JavaScript, Python, Java</p>
+                </div>
+                <div class="skill">
+                    <h3>Web Development</h3>
+                    <p>React, Node.js, Express.js, REST APIs</p>
+                </div>
+                <div class="skill">
+                    <h3>Version Control</h3>
+                    <p>Git, GitHub, GitLab</p>
+                </div>
+                <div class="skill">
+                    <h3>Databases</h3>
+                    <p>MySQL, MongoDB</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                
+            
+                <h3>Freelance Web Developer</h3>
+                <p><strong>Self-Employed</strong> | 2023 - Present</p>
+                <ul>
+                    <li>Built custom websites for small businesses and personal brands</li>
+                    <li>Provided web maintenance services, including SEO optimization and performance enhancement</li>
+                    <li>Created landing pages and online portfolios to help clients improve their online presence</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            
+            <div class="project-item">
+                <h3>Weather Forecasting App</h3>
+                <p>A weather forecasting application that fetches data from a public API.</p>
+                <ul>
+                    <li>Technologies: HTML, CSS, JavaScript, OpenWeather API</li>
+                    <li>Used JavaScript for fetching API data and dynamically displaying weather information</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="extracurricular">
+            <h2>Extracurricular Activities</h2>
+            <ul>
+                <li>President of the University Coding Club</li>
+                <li>Volunteer Teacher at the Local Coding Bootcamp for Children</li>
+                <li>Member of the Robotics Club - participated in national-level robotics competitions</li>
+                <li>Organized hackathons and coding workshops at University</li>
+            </ul>
+        </section>
+
+        <section class="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Certified Web Developer - FreeCodeCamp</li>
+                <li>JavaScript Algorithms and Data Structures - freeCodeCamp</li>
+                <li>Google IT Support Specialization - Coursera</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+\\css
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.resume {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #2980b9;
+}
+
+.name-title h1 {
+    font-size: 40px;
+    margin: 0;
+    color: #2c3e50;
+}
+
+.name-title .title {
+    font-size: 18px;
+    color: #7f8c8d;
+    margin-top: 5px;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of items */
+    gap: 20px; /* Adds space between the items */
+    justify-content: center; /* Center items horizontally */
+    margin-top: 20px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #34495e;
+    flex: 1 1 30%; /* Each item will take up 30% of the width, ensuring three items per line */
+    min-width: 200px; /* Ensures a minimum width for each item */
+}
+
+.contact-info p strong {
+    color: #2980b9;
+}
+
+/* Adjust the layout when screen size is smaller */
+@media (max-width: 768px) {
+    .contact-info p {
+        flex: 1 1 48%; /* Two items per line on smaller screens */
+    }
+}
+
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 22px;
+    color: #34495e;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.education-item, .experience-item, .project-item {
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.skill h3 {
+    font-size: 18px;
+    color: #2980b9;
+}
+
+.skill p {
+    font-size: 16px;
+    color: #34495e;
+}
+
+.contact-info p strong {
+    color: #2980b9;
+}
+
+.certifications ul {
+    padding-left: 0;
+}
+
+.certifications ul li {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+.project-item ul {
+    padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .skills-list {
+        grid-template-columns: 1fr;
+    }
+
+    .header {
+        margin-bottom: 20px;
+    }
+}
+
+
