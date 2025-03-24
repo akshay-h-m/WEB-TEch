@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <style>
+      
+      body{
+        margin:0;
+        padding:0;
+        font-family:Arial, sans-serif;
+      }
+
+      
+      header{
+        background-color:yellow;
+        padding:10px;
+        text-align:center;
+        font-size:24px;
+        font-weight:bold;
+      }
+      nav{
+        float:left;
+        width:15%;
+        padding:10px;
+        border-right:3px solid green;
+      }
+      main{
+        float:left;
+        width: 60%;
+        padding: 10px;
+        margin-left:1em;
+      }
+
+        aside{
+            float:right;
+            width:20%;
+            padding:10px;
+            border :1px dashed green;
+            
+        }
+        footer {
+            clear:both;
+            text-align:10px;
+            padding:10px;
+            margin-top:20px;
+            border-top:1px solid black;
+        }
+       a {
+            text-decoration:none;
+            color:blue;
+        }
+
+        
+    
+      
+      
+    </style>
+  </head>
+  <body>
+    <header><h1>My blog about my life<h1></header>
+<div class="container">
+
+    <nav>
+        <h3>Menu</h3>
+    <ul>
+        <li><a href="#today">Today</a></li>
+        <li><a href="#yesterday">Yesterday</a></li>
+        <li><a href="#last-week">Last Week</a></li>
+        <li><a href="#archives">Archives</a></li>
+    </ul>
+
+    </nav>
+    <main>
+        <article id="today">
+            <h2> Meeting with supervisor</h2>
+            <p><strong>14 DEC 2011</strong></p>
+            <p> Today i went to university by bus.<br>
+                I had a meeting with my PHD supervisot.</p>
+
+        </article>
+
+        <article id="yesterday">
+            <h2> Meeting with parents</h2>
+            <p><strong>17 DEC 2011</strong></p>
+            <p> Today i went back home by bus.<br>
+                I had a meeting with my  parents.</p>
+
+        </article>
+
+    </main>
+    <aside>
+        <h3><a href="#last-posts">Last posts</a></h3>
+        <ul id="last-posts">
+            <li><a href="#today">Meeting with supervisor</a><li>
+                <li><a href="#yesterday">Meeting with parents</a><li>
+        </ul>
+    </aside>
+    </div>
+    <footer> 
+        <p> Contact me: <a href="mailto:email@something.com">email@something.com</a></p>
+    </footer>
+  </body>
+</html>
