@@ -1,3 +1,4 @@
+//.1.>>
 // Global variable for quiz score
 var score = 0;
 
@@ -54,9 +55,7 @@ function reviewScore() {
 reviewScore();
 
 
-// -------------------------
-// 📍 PART 2: Student Activity Evaluator
-// -------------------------
+//2.>>>
 
 // Global variables
 var studentName = "Anika";
